@@ -1,0 +1,99 @@
+
+a{
+   text-decoration: none;
+}
+
+.text-gray{
+    color:#dddfeb;
+
+}
+
+.shadow{
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) 
+}
+
+.center{
+    text-align:center !important
+}
+.text-align-right{
+    text-align:right;
+}
+
+
+#wrapper {
+    display: flex;
+    
+}
+#sidebar{
+    padding:0.5em 1em;
+    
+    width:250px;
+}
+#sidebar a{
+    color:white
+}
+#content{
+    flex-grow: 1; /* ou width:100% ou 100vh?*/    
+    
+}
+
+
+.topbar{
+    height:4.5rem;
+}
+.topbar .divider{
+    width: 0;
+  border-right: 1px solid #e3e6f0;
+  height: calc(4.375rem - 2rem);
+  margin: auto 1rem;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    right: 0;
+    left:auto;
+    margin-top: .125rem;
+}
+.topbar .dropdown-toggle:after{
+    border:none;
+}
+.topbar .badge{
+    border-radius: 2px;
+    font-size: .6rem;
+    padding:.3em .3em;
+}
+.topbar .avatar{
+    width:2rem;
+    height:2rem;
+}
+
+.topbar .username{
+    font-size: 0.7rem;
+}
+  
+/*------------CARDS-------------*/
+
+.cards .card{
+    border:none;
+    
+}
+.card .card-body{
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+.cards .card-title{
+    font-size:.7rem;
+}
+.cards .card-text{
+    color: #5a5c69;    
+    font-size:1.3rem;
+}
+.card{
+    flex:1 0 0;
+}
+
+/*---------Javascript-------*/
+
+.open{
+    display:block !important
+}
